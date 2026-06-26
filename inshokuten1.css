@@ -9,7 +9,7 @@ body {
     font-family: "Yu Gothic", sans-serif;
     line-height: 1.8;
     color: #333;
-    background-color: #f8f8f8;
+    background-color: #f7ba6aea;
 }
 
 /* -------------------------
@@ -20,12 +20,15 @@ body {
     position: relative;
     height: 100vh;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 #hero img {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
+    border-radius: 0 !important;
 }
 
 /* 画像を少し暗くする */
@@ -37,6 +40,7 @@ body {
     background: rgba(0,0,0,0.4);
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 /* -------------------------
@@ -145,7 +149,7 @@ section {
 
 section h2 {
     text-align: center;
-    font-size: 38px;
+    font-size: 30px;
     margin-bottom: 40px;
 }
 
